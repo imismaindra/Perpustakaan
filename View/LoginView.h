@@ -2,7 +2,6 @@
 class LoginView {
 public:
     void ProsesLogin(){
-        
         cout << "Masukkan username: ";
         cin >> username; // Menambahkan input untuk username
         cout << "Masukkan password: ";
