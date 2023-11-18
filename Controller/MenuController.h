@@ -1,10 +1,16 @@
+#ifndef MENU_CONTROLLER_H
+#define MENU_CONTROLLER_H
+
 #include<iostream>
 #include "G:\Pribadi\Kuliah\Praktikum\C++\Perpustakaan\View\MenuView.h"
+#include "RegisterController.h"
 using namespace std;
 
+class RegisterController;// Forward Declaration
 class MenuController {
 public:
-    MenuController(Menu* menu, LoginController* login) : menu(menu), login(login) {}
+    MenuController(Menu* menu, LoginController* login, RegisterController* regist) : menu(menu), login(login), regist(regist) {}
+
     void showMenu() {
         menu->MenuWelcome();
         int pil = menu->getPilihan();
@@ -14,7 +20,7 @@ public:
                 login->Login();
                 break;
             case 2:
-                cout << "ini 2";
+                regist->Register();
                 break;
         }
     }
@@ -22,4 +28,7 @@ public:
 private:
     Menu* menu;
     LoginController* login;
+    RegisterController* regist;
+    //RegisterController* regist;
 };
+#endif 
