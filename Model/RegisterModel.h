@@ -16,21 +16,23 @@ class RegisterModel{
         string role;
     };
 
-   void loadRegister() {
+    void clearRegisters() {
+        registers.clear();
+    }
+   void loadRegister(){
+        clearRegisters();
         ifstream file("../Utils/login.txt");
-        if (file.is_open()) {
-             Register daftar;
-            while (file >> daftar.id >> daftar.nama >> daftar.email >> daftar.username >> daftar.password >> daftar.role) {
-                registers.push_back(daftar);
+        if(file.is_open()){
+            while(!file.eof()){
+                Register daftar;
+                file >> daftar.id >> daftar.nama >> daftar.email >> daftar.username >> daftar.password >> daftar.role;
+                if(!file.fail()) {
+                    registers.push_back(daftar);
+                }
             }
-
-            if (file.bad()) {
-                cerr << "Error reading file.\n";
-            }
-
             file.close();
         } else {
-            cout << "File tidak bisa dibuka\n";
+            cout<<"File tidak bisa dibuka \n";
         }
     }
     int getNextId() const {
@@ -44,7 +46,7 @@ class RegisterModel{
         ofstream file("../Utils/login.txt");
         if(file.is_open()) {
             for(const Register& daftar:registers) {
-                file << daftar.id << " " << daftar.nama << " " << daftar.nama << " " << daftar.email << " " << daftar.username << " " << daftar.password << " " << daftar.role <<endl;
+                file << daftar.id << " " << daftar.nama << " " << daftar.email << " " << daftar.username << " " << daftar.password << " " << daftar.role <<endl;
             }
             file.close();
             cout<<"Save berhasil";

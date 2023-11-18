@@ -8,8 +8,8 @@ class RegisterController{
     public:
         RegisterController(RegisterModel* model, RegisterViews* view): model(model), view(view){};
         void Register(){
-            model->loadRegister();
-            int id = model->getNextId();;//Mendapatkan ID berdasarkan jumlah data yang sudah ada
+            //model->loadRegister();
+            int id = model->getNextId();//Mendapatkan ID berdasarkan jumlah data yang sudah ada
             string nama, email, username, password, role;
             view->RegisterView(id, nama, email, username, password, role);
             

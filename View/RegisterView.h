@@ -4,7 +4,9 @@ using namespace std;
 
 class RegisterViews{
     public:
-    void RegisterView(int& id, string& nama, string& email,string& username, string& password, string& role){
+    void RegisterView(int& id, string& nama, string& email,
+         string& username, string& password, string& role){
+            
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout<<"Nama     : "; getline(cin, nama);
         cout<<"Email    : "; getline(cin, email);

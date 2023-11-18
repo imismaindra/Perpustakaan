@@ -19,7 +19,7 @@ int main() {
     RegisterController regcontrol(&regmodel, &regview);
     MenuController mainmenu(&menu, &controller,&regcontrol);
     
-    // regmodel.loadRegister();
+    regmodel.loadRegister();
     mainmenu.showMenu();
      
     //  controller.Login();

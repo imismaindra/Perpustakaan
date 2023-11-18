@@ -1,2 +1,3 @@
-1 Indra Indra Indra Indra Indra Indra
-2 hari hari hari hari hari1234 user
+1 Indra indra@admin.com indra 1234 Admin
+2 Rehan rehan@gmail.com rehans rehan1234 user
+3 mufti mufti@gmail.com muftiii muf1234 user
