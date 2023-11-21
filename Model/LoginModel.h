@@ -3,7 +3,7 @@
 using namespace std;
 class LoginModel {
 public:
-    bool checkLogin(const string& username, const string& password) {
+    string checkLogin(const string& username, const string& password) {
         ifstream file("../Utils/login.txt"); // membaca file login.txt
         int id;
         string Nama, Email, storedUsername, storedPassword,role;
@@ -11,11 +11,11 @@ public:
         while (file >>id >> Nama >> Email >> storedUsername >> storedPassword >> role) {
             if (username == storedUsername && password == storedPassword) {
                 file.close();
-                return true; // Username dan password cocok
+                return role; // Username dan password cocok
             }
         }
         file.close();
-        return false; // Username atau password tidak cocok
+        return ""; // Username atau password tidak cocok
     }
 
 };

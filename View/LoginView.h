@@ -7,7 +7,6 @@ public:
         cout << "Masukkan password: ";
         cin >> password; // Menambahkan input untuk password
     }
-    
     void sukses(){
         cout<<"Login Berhasil\n";
     }

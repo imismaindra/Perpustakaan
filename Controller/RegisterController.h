@@ -16,9 +16,15 @@ class RegisterController{
             RegisterModel::Register reg = {id, nama, email, username, password, role};
             model->createRegister(reg);
             model->saveRegister();  // Menyimpan data registrasi setelah membuatnya
+            registerStatus = true;
+        }
+
+        bool getRegisterStatus(){
+            return registerStatus;
         }
     private:
         RegisterModel* model;
         RegisterViews* view;
+        bool registerStatus;
 };
 #endif
