@@ -1,1 +1,5 @@
-1,190990,Humoris,Dia hanya membalas pesanmu bukan perasaanmu,10,Kiomasa,2020,Kompas
+1,11111,The last Air bender,avatar kocak,190,kiyomasa kun,2020,Kompas
+2,19101,Hyang Biru,hyang biru adalah gitudah,919,Primo,2020,Mahendra
+3,901891,Boku no Pico,Bercrita tentang seorang anak laki-laki,190,Brilian,2010,Brilian Manga
+4,19878,Hero,Hero adalah manusia terkuat,303,Sukiman,2023,sukiman
+5,198876,Jejepangan,Buku untuk pecinta jepang,90,Wibu,2023,wibu crops

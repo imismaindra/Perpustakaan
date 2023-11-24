@@ -40,8 +40,9 @@ class Menu{
         cout<<"== 3. Ubah Buku                        =="<<endl;
         cout<<"== 4. List Buku                        =="<<endl;
         cout<<"== 5. Cek Peminjaman Buku              =="<<endl;
-        cout<<"== 6. Cek Pengembalian Buku           =="<<endl; 
-        cout<<"== 7. Exit                             =="<<endl;
+        cout<<"== 6. Cek Pengembalian Buku            =="<<endl; 
+        cout<<"== 7. Kembali                          =="<<endl; 
+        cout<<"== 8. Exit                             =="<<endl;
         cout<<"========================================="<<endl;
         cout<<"Pilihan: ";cin>>pil2;
     }
@@ -57,7 +58,8 @@ class Menu{
         cout<<"== 2. Hapus User                       =="<<endl;
         cout<<"== 3. Ubah User                        =="<<endl;
         cout<<"== 4. List User                        =="<<endl;
-        cout<<"== 5. Exit                             =="<<endl;
+        cout<<"== 5. Kembali                          =="<<endl;
+        cout<<"== 6. Exit                             =="<<endl;
         cout<<"========================================="<<endl;
 
     }

@@ -25,13 +25,18 @@ public:
                     menu->MenuAdmin();
                     int pil1 = menu->getPiladmin();
                     if(pil1 == 1){
-                       menu->MenuManageBuku();
-                       int pil2 = menu->getPilBuku();
-                       if(pil2 == 1){
-                        book->Buku();
-                       }else if(pil2 == 2){
-
-                       }
+                        do{
+                            menu->MenuManageBuku();
+                            int pil2 = menu->getPilBuku();
+                            
+                            if(pil2 == 1){
+                                book->Buku();
+                            }else if(pil2 == 2){
+                                book->HapusBuku();
+                            }else if(pil2 == 3){
+                                book->UbahBuku();
+                            }
+                        }while(menu->getPilBuku() < 1 || menu->getPilBuku() > 8);
                     }else if(pil1 == 2){
                         menu->MenuMenageUser();
                     }   

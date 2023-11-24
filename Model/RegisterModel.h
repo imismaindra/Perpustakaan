@@ -49,10 +49,10 @@ class RegisterModel{
                 file << daftar.id << " " << daftar.nama << " " << daftar.email << " " << daftar.username << " " << daftar.password << " " << daftar.role <<endl;
             }
             file.close();
-            cout<<"Save berhasil";
+            cout<<"Save berhasil"<<endl;
             return true;  
         }else{
-            cout<<"Save Gagal.";
+            cout<<"Save Gagal, coba lagi."<<endl;
             return false;
         }
     }
