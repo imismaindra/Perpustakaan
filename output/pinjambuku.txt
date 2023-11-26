@@ -1,0 +1,2 @@
+1,John Doe,[isbn1,Judul Buku 1,isbn2,Judul Buku 2,],01/01/2023,15/01/2023,Dipinjam
+2,Jane Smith,[isbn3,Judul Buku 3,],05/01/2023,20/01/2023,Dikembalikan

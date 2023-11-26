@@ -62,6 +62,13 @@ class BukuView{
         cin.ignore();
         cout << "Penerbit baru: "; getline(cin, newPublisher);
     }
+    void listBukuView(){
+        cin.ignore();
+        cout << "Daftar Buku:\n";
+        cout << "---------------------------------------------------------------------------------------------------------------------------\n";
+        cout << "| ID | ISBN  | Judul                 | Sinopsis              | Halaman | Author           | Tahun Terbit | Publisher       |\n";
+        cout << "---------------------------------------------------------------------------------------------------------------------------\n";
+    }
 
 
     void deleteBukuView(int& id){

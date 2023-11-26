@@ -65,6 +65,10 @@ class BukuController{
             cout << "Buku dengan ID " << Bukuid << " tidak ditemukan.\n";
         }
     }
+    void tampilBuku(){
+        view->listBukuView();
+        model->listBuku();
+    }
 
     private:
     BukuModel* model;

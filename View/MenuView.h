@@ -31,6 +31,23 @@ class Menu{
         return pil1;
     }
 
+    void MenuUser(){
+        cout<<"========================================="<<endl;
+        cout<<"===--------------Menu User-------------=="<<endl;
+        cout<<"========================================="<<endl;
+        cout<<"== 1. List Buku                        =="<<endl;
+        cout<<"== 2. Cari Buku                        =="<<endl;
+        cout<<"== 3. Pinjam Buku                      =="<<endl;
+        cout<<"== 4. Pengembalian Buku                =="<<endl;
+        cout<<"== 5. Exit                             =="<<endl;
+        cout<<"========================================="<<endl;
+        cout<<"Pilih: ";cin>>pilUser;
+    }
+    int getPilihanUser(){
+        return pilUser;
+    }
+
+
     void MenuManageBuku(){
         cout<<"========================================="<<endl;
         cout<<"===------------MENU BUKU--------------=="<<endl;
@@ -65,6 +82,7 @@ class Menu{
     }
     private:
     int pilihan;
+    int pilUser;
     int pil1;
     int pil2;
     int pil3;

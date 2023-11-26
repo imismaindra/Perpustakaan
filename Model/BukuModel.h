@@ -4,6 +4,7 @@
 #include <fstream>   // Mengimpor library untuk bekerja dengan file.
 #include <vector>    // Mengimpor library untuk menggunakan vektor.
 #include <algorithm> // Mengimpor library algoritma, digunakan untuk menghapus catatan.
+#include <iomanip>
 using namespace std;
 
 class BukuModel{
@@ -121,12 +122,32 @@ class BukuModel{
         }
     }
 
+    void listBuku() {
+    
+    for (const Buku& buku : books) {
+        cout << "| " << setw(2) << buku.id << " | " << setw(5) << buku.isbn << " | " << setw(20) << truncateString(buku.judul,18) << " | " << setw(18) << truncateString(buku.sinopsis, 18)
+             << " | " << setw(7) << buku.halaman << " | " << setw(16) << buku.author << " | " << setw(12) << buku.tahunTerbit << " | "
+             << setw(16) << buku.publisher << " |\n";
+    }
+
+    cout << "---------------------------------------------------------------------------------------------------------------------------\n";
+    }
+
+
     
     const vector<Buku>& getBuku() const{
         return books;
     }
 
     private:
+        // Fungsi untuk memotong string jika terlalu panjang
+    string truncateString(const string& input, size_t maxLength) {
+        if (input.length() > maxLength) {
+            return input.substr(0, maxLength) + "...";
+        } else {
+            return input;
+        }
+    };
     vector<Buku> books;
     int idBuku;
 };

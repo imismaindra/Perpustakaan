@@ -1,5 +1,35 @@
-1,11111,The last Air bender,avatar kocak,190,kiyomasa kun,2020,Kompas
-2,19101,Hyang Biru,hyang biru adalah gitudah,919,Primo,2020,Mahendra
-3,901891,Boku no Pico,Bercrita tentang seorang anak laki-laki,190,Brilian,2010,Brilian Manga
-4,19878,Hero,Hero adalah manusia terkuat,303,Sukiman,2023,sukiman
-5,198876,Jejepangan,Buku untuk pecinta jepang,90,Wibu,2023,wibu crops
+1, 11111, The Last Avatar, Seorang bocah yang menjadi Avatar dengan kisah yang kocak, 190, Kiyomasa Kun, 2020, Kompas
+2, 19101, Hyang Biru, Kisah tentang Hyang Biru yang penuh misteri, 919, Primo, 2020, Mahendra
+3, 90189, Boku no Pico, Seorang anak laki-laki dalam kisah yang menarik, 190, Brilian, 2010, Brilian Manga
+4, 19878, Hero, Kehidupan seorang manusia terkuat yang dikenal sebagai Hero, 303, Sukiman, 2023, Sukiman
+5, 19887, Jejepangan, Buku untuk pecinta budaya Jepang dengan informasi yang menarik, 90, Wibu, 2023, Wibu Crops
+6, 10983, Misteri Malam, Petualangan seru di malam yang penuh misteri, 250, Ananta, 2022, Pustaka Harapan
+7, 56789, Detektif Cilik, Seorang detektif cilik yang memecahkan berbagai kasus misterius, 150, Aulia, 2019, Gramedia
+8, 12345, Surga di Bawah Laut, Eksplorasi dunia bawah laut yang memukau, 180, Marina, 2021, Dunia Pustaka
+9, 87654, Kisah Cinta Abadi, Cinta yang melintasi waktu dan ruang, 280, Bella, 2018, Bintang Pena
+10, 33221, Perangkat Lunak Kreatif, Panduan lengkap untuk mengembangkan perangkat lunak kreatif, 400, Coding Master, 2022, Informatika Press
+11, 44567, Matahari Terbenam, Kisah romantis di bawah matahari terbenam yang indah, 200, Surya, 2017, Sunset Publishing
+12, 88900, Membangun Robot Pintar, Langkah-langkah praktis untuk membuat robot pintar, 320, Tekno Guru, 2023, RoboTech
+13, 11223, Petualangan Antariksa, Menjelajahi galaksi dalam sebuah petualangan luar biasa, 280, Astro Explorer, 2019, Galactic Books
+14, 66778, The Art of Cooking, Seni memasak dari berbagai belahan dunia, 150, Culinary Artist, 2021, Foodie Publications
+15, 99001, Dunia Mikroba, Penelusuran mendalam tentang kehidupan mikroba, 240, Microbe Expert, 2022, Science Insights
+16, 22556, Rahasia Alam Gaib, Mengungkap misteri alam gaib yang selama ini tersembunyi, 180, Mystic Seeker, 2020, Esoterica
+17, 33445, Pesona Taman Bunga, Keindahan taman bunga yang memikat hati, 120, Floria, 2018, Nature Harmony
+18, 77889, Berpetualang dengan Dinosaurus, Petualangan menegangkan di era dinosaurus, 260, Dino Explorer, 2022, Dino World
+19, 12309, Menyelami Kehidupan Laut, Mengenal lebih dekat kehidupan laut yang menakjubkan, 190, Oceanographer, 2021, Maritime Press
+20, 56789, Keajaiban Alam Antartika, Menjelajahi keindahan alam Antartika yang memesona, 220, Polar Explorer, 2019, Frost Books
+21, 99887, Robotika untuk Pemula, Panduan praktis memahami dunia robotika bagi pemula, 180, Robo Novice, 2023, Tekno Press
+22, 66778, Kumpulan Puisi Indah, Racikan kata-kata indah dalam kumpulan puisi yang menginspirasi, 100, Poetica, 2020, Poetic Publications
+23, 22334, Penjelajah Waktu, Petualangan melintasi waktu dalam kisah yang penuh intrik, 250, Time Traveler, 2018, Temporal Books
+24, 11223, Seri Misteri Anak Sekolah, Anak-anak sekolah memecahkan misteri di sekitar lingkungan mereka, 160, School Sleuths, 2021, EduKiddo
+25, 99887, Desain Grafis Profesional, Tips dan trik untuk menjadi desainer grafis profesional, 300, Design Pro, 2022, Grafika Maju
+26, 44567, Pahlawan Kecil, Kisah inspiratif tentang keberanian pahlawan kecil dalam menghadapi tantangan, 210, Little Hero, 2019, Heroic Press
+27, 77889, Exploring Quantum Physics, A journey into the fascinating world of quantum physics, 240, Quantum Explorer, 2023, Physics World
+28, 22334, Beyond the Horizon, An epic tale of adventure and discovery beyond the known horizon, 350, Horizon Voyager, 2020, Discovery Press
+29, 12309, Baking Masterclass, Learn the art of baking from the experts with step-by-step instructions, 180, Bake Guru, 2021, Culinary Creations
+30, 56789, Secrets of the Rainforest, Unraveling the mysteries and wonders of the enchanting rainforest, 200, Rainforest Explorer, 2018, Nature Ventures
+31, 99887, Coding for Kids, Fun and interactive guide to teach kids the basics of coding, 120, Code Wizard, 2022, Kid Coders
+32, 66778, The Lost Kingdom, An archaeological expedition uncovering the secrets of a lost civilization, 280, Archaeo Explorer, 2019, Ancient Press
+33, 22334, Melodies of the Soul, A collection of soul-stirring poems and melodies that touch the heart, 150, Melody Weaver, 2020, Harmony Books
+34, 11223, Galactic Diplomacy, Exploring the complexities of intergalactic relations and diplomacy, 220, Diplomatic Voyager, 2021, Star Alliance
+35, 99887, The Magical Garden, A magical journey through a garden filled with mystical creatures and wonders, 180, Enchanting Gardener, 2023, Mystic Publications

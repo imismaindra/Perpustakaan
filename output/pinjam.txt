@@ -1,0 +1,6 @@
+Nama: indra, ISBN: 111019, Judul: buku ku, Status: Dipinjam
+Nama: indra, ISBN: 190191, Judul: nirmata, Status: Dipinjam
+Nama: indra, ISBN: 1901, Judul: jikosaokai, Status: Dipinjam
+Nama: bakul, ISBN: 1901910, Judul: naruto, Status: Dipinjam
+Nama: bakul, ISBN: 198404, Judul: boruto, Status: Dipinjam
+Nama: bakul, ISBN: 101981, Judul: nanami, Status: Dipinjam

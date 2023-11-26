@@ -35,13 +35,22 @@ public:
                                 book->HapusBuku();
                             }else if(pil2 == 3){
                                 book->UbahBuku();
+                            }else if(pil2 == 4){
+                                book->tampilBuku();
                             }
                         }while(menu->getPilBuku() < 1 || menu->getPilBuku() > 8);
                     }else if(pil1 == 2){
                         menu->MenuMenageUser();
                     }   
                 }else if(login->getUserRole() == "user"){
-                    cout<<"Halo user";
+                    cout<<"Halo user \n";
+                    menu->MenuUser();
+                    int pilihanUser = menu->getPilihanUser();
+                    if(pilihanUser == 1){
+                        book->tampilBuku();
+                    }else if(pilihanUser == 2){
+
+                    }
                 }
                 break;
             case 2:
